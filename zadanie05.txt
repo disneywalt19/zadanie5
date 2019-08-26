@@ -1,0 +1,17 @@
+Zadanie 5
+
+http://api.geonames.org/findNearbyWikipediaJSON?lat=52.5463446&lng=19.7065364&username=placeknow&lang=pl&radius=20&maxRows=500
+
+Pod powyższym adresem jest lista miejsc i atrakcji turystycznych w okolicach Płocka w formacie JSON.
+Otwórz link, skopuj treść do pliku places.json (ręcznie, nie za pomocą PHP).
+
+
+Napisz skrypt który pobierze tresc z pliku .json i wyświetli ją w postaci tabelki.
+Linki do wiki mają być klikalne.
+Zamiast lat i lng ma się pojawić obrazek od google maps generowany jak ponizszy przyklad: 
+
+https://maps.googleapis.com/maps/api/staticmap?key=AIzaSyDFKFWAwg5E086snrCZRvzO3VmIl7PyhBw&center=52.5463446,19.7065364&zoom=15&size=160x160&markers=color:blue|52.5463446,19.7065364
+
+Dwa razy podajesz te same wspołrzędne pobrane dla kazdego miejsca.
+160x160 - to wymiar obrazka, dobierz według potrzeb.
+
